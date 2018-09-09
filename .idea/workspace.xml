@@ -4,34 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc34afd5-b9a8-4177-9661-122a94349687" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/controller/weixinNotiy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/controller/wxpayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/Sha1Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/WXUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/XMLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/vo/payVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/AppGoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/AppOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/dao/GoodsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/entity/GoodsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/entity/OrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/AppBlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/AppBlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/common/utils/DateUtils$DateFiled.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/common/utils/DateUtils$DateFiled.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/common/utils/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/common/utils/DateUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/AppBlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/AppBlogController.class" afterDir="false" />
-    </list>
+    <list default="true" id="bc34afd5-b9a8-4177-9661-122a94349687" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +48,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="11" />
-          <entry key="java" value="145" />
+          <entry key="java" value="151" />
           <entry key="md" value="1" />
           <entry key="sql" value="3" />
           <entry key="xml" value="15" />
@@ -85,7 +58,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="11" />
-          <entry key="JAVA" value="145" />
+          <entry key="JAVA" value="151" />
           <entry key="Markdown" value="1" />
           <entry key="SQL" value="3" />
           <entry key="XML" value="15" />
@@ -110,7 +83,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/AppOrderController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
@@ -123,6 +96,60 @@
                 <element signature="method#getAllOrderList#0;class#AppOrderController#0" />
                 <element signature="e#5602#5615#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/JsonUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/MD5Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/Sha1Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/WXUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/XMLUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -205,8 +232,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="23" />
+    <option name="x" value="-3" />
+    <option name="y" value="34" />
     <option name="width" value="1440" />
     <option name="height" value="800" />
   </component>
@@ -358,7 +385,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536454994973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536456322496" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -430,7 +457,7 @@
       <updated>1536199050553</updated>
       <workItem from="1536199052472" duration="2278000" />
       <workItem from="1536202290266" duration="44545000" />
-      <workItem from="1536328913583" duration="13034000" />
+      <workItem from="1536328913583" duration="13155000" />
     </task>
     <servers />
   </component>
@@ -449,11 +476,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59857000" />
+    <option name="totallyTimeSpent" value="59978000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="1440" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="-3" y="34" width="1440" height="800" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -465,7 +491,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33050847" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33050847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,7 +504,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32911393" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.12624113" />
+      <window_info anchor="bottom" id="Messages" order="15" visible="true" weight="0.12570621" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -892,26 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/Constant.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/Sha1Util.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/XMLUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/WXUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1286">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/controller/weixinNotiy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -919,20 +925,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -962,6 +954,48 @@
             <element signature="method#getAllOrderList#0;class#AppOrderController#0" />
             <element signature="e#5602#5615#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/Sha1Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/WXUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/XMLUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/wxpay/util/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
