@@ -26,6 +26,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Random;
 
 /**
  * 日期处理
@@ -217,4 +218,22 @@ public class DateUtils {
     public static Date getCurrentDate() {
         return Calendar.getInstance().getTime();
     }
+
+    public static String getOrderIdByTime(Integer userId) {
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyyMMddHHmmss");
+        String newDate=sdf.format(new Date());
+        String result="";
+        Random random=new Random();
+        for(int i=0;i<3;i++){
+            result+=random.nextInt(10);
+        }
+        return newDate+userId+result;
+    }
+
+    public static String getCurrentString(){
+        SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        String newDate = sDateFormat.format(new Date());
+        return newDate;
+    }
+
 }

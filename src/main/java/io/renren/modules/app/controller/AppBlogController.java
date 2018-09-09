@@ -29,7 +29,11 @@ public class AppBlogController {
     @Autowired
     UserService userService;
 
-
+    /**
+     *
+     * @param userId
+     * @return
+     */
     @GetMapping("/list")
     public R getArticleList(@RequestParam Integer userId){
         List<BlogEntity> user = blogService.selectList(new EntityWrapper<BlogEntity>().eq("user_id",userId));
@@ -47,6 +51,11 @@ public class AppBlogController {
 
     }
 
+    /**
+     *
+     * @param map
+     * @return
+     */
     @PostMapping("/addlist")
     public R addArticleList(@RequestBody Map map){
         String title = (String)map.get("article_title");
@@ -82,6 +91,11 @@ public class AppBlogController {
 
     }
 
+    /**
+     *
+     * @param articleId
+     * @return
+     */
     @GetMapping("/articleDetail")
     public R selectOneArticle(@RequestParam Integer articleId){
         BlogEntity blogEntity = blogService.selectOne(new EntityWrapper<BlogEntity>().eq("article_id",articleId));
@@ -103,6 +117,11 @@ public class AppBlogController {
         }
     }
 
+    /**
+     *
+     * @param map
+     * @return
+     */
     @PostMapping("/deleteArticle")
     public R deleteArticle(@RequestBody Map map){
         Integer userId = (Integer)map.get("userId");
@@ -139,6 +158,11 @@ public class AppBlogController {
 
     }
 
+    /**
+     *
+     * @param map
+     * @return
+     */
     @PostMapping("/updateArticle")
     public R updateArticle(@RequestBody Map map){
         String content = (String)map.get("articleContent");
@@ -162,9 +186,6 @@ public class AppBlogController {
                 return R.error(300,"更新失败");
             }
         }
-
-
-
 
     }
 
