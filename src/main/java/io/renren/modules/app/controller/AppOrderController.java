@@ -31,6 +31,11 @@ public class AppOrderController {
     @Autowired
     GoodsService goodsService;
 
+    /**
+     * 创建订单
+     * @param map
+     * @return
+     */
     @PostMapping("addoneorder")
     public R addOneOrder(@RequestBody Map map){
         Integer userId = (Integer) map.get("userId");
@@ -85,9 +90,15 @@ public class AppOrderController {
         }else {
             return R.error(300,"不存在该商品了");
         }
+
+
     }
 
-
+    /**
+     * 取消订单
+     * @param orderNum
+     * @return
+     */
     @GetMapping("canceOrder")
     public R canceOneOrder(@RequestParam String orderNum){
 
@@ -134,6 +145,11 @@ public class AppOrderController {
 
     }
 
+    /**
+     * 删除订单
+     * @param orderNum
+     * @return
+     */
     @GetMapping("deleteorder")
     public R deleteOneOrder(@RequestParam String orderNum){
         OrderEntity orderEntity = orderService.selectOne(new EntityWrapper<OrderEntity>().eq("order_num",orderNum));
@@ -154,6 +170,11 @@ public class AppOrderController {
         }
     }
 
+    /**
+     * 获取全部订单
+     * @param map
+     * @return
+     */
     @PostMapping("getAllorderlist")
     public R getAllOrderList(@RequestBody Map map){
         Integer userId = (Integer)map.get("userId");
@@ -180,8 +201,29 @@ public class AppOrderController {
 
 
 
+    }
+    @PostMapping("modifyorderstatus")
+    public R modifyOrderStatus(@RequestBody Map map ){
 
+        String orderNum = (String)map.get("ordernum");
+        Integer status = (Integer)map.get("status");
 
+        OrderEntity orderEntity = orderService.selectOne(new EntityWrapper<OrderEntity>().eq("order_num",orderNum));
+        if (orderEntity != null){
+            OrderEntity entity = new OrderEntity();
+            entity.setModifytime(DateUtils.getCurrentString());
+            entity.setOrderStatus(status);
+
+            boolean orderStatus = orderService.update(entity,new EntityWrapper<OrderEntity>().eq("order_num",orderNum));
+            if (orderStatus){
+                return R.ok();
+            }else {
+                return R.error(301,"修改订单状态失败");
+            }
+
+        }else {
+            return R.error(300,"不存在该订单");
+        }
 
     }
 

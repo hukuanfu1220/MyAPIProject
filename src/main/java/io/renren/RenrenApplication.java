@@ -1,5 +1,7 @@
 package io.renren;
 
+import com.avos.avoscloud.AVOSCloud;
+import com.avos.avoscloud.AVObject;
 import io.renren.datasources.DynamicDataSourceConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,6 +22,12 @@ public class RenrenApplication extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		//AVOSCloud.initialize("IJ9yXePUxhvz9LGRr8UwufdI-gzGzoHsz","WvqLAFMXcNeGlAKQQ1dyaBWY","dKAYBhoNiax3Rq78jsM2YT89");
+		AVOSCloud.initialize("IJ9yXePUxhvz9LGRr8UwufdI-gzGzoHsz","WvqLAFMXcNeGlAKQQ1dyaBWY","dKAYBhoNiax3Rq78jsM2YT89");
+		//AVOSCloud.useAVCloudCN();
+		AVOSCloud.setDebugLogEnabled(true);
+
+
 		return application.sources(RenrenApplication.class);
 	}
 }

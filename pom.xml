@@ -96,6 +96,18 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql.version}</version>
 		</dependency>
+		<!--七牛云驱动-->
+		<dependency>
+			<groupId>com.qiniu</groupId>
+			<artifactId>qiniu-java-sdk</artifactId>
+			<version>[7.2.0, 7.2.99]</version>
+		</dependency>
+		<!--leancloud驱动-->
+		<dependency>
+			<groupId>cn.leancloud</groupId>
+			<artifactId>java-sdk</artifactId>
+			<version>0.1.6</version>
+		</dependency>
 		 <!--oracle驱动-->
 		<!--<dependency>-->
 			<!--<groupId>com.oracle</groupId>-->

@@ -41,6 +41,10 @@ spring:
     static-path-pattern: /static/**
   resources:
     add-mappings: false
+    static-locations: /Users/hukuanfu/Desktop/renren-fast/imagedata
+
+  image:
+    location: /Users/hukuanfu/Desktop/renren-fast/imagedata
 
 #mybatis
 mybatis-plus:
