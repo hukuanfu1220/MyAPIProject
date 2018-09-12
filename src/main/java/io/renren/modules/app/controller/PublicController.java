@@ -51,7 +51,9 @@ public class PublicController {
     @RequestMapping(value = "/uploadimage",method = RequestMethod.POST)
     public R upload(@RequestParam(value = "file",required = false) MultipartFile file) throws Exception{
 
-
+        AVOSCloud.initialize("IJ9yXePUxhvz9LGRr8UwufdI-gzGzoHsz","WvqLAFMXcNeGlAKQQ1dyaBWY","dKAYBhoNiax3Rq78jsM2YT89");
+        AVOSCloud.useAVCloudCN();
+        AVOSCloud.setDebugLogEnabled(true);
 
 
 

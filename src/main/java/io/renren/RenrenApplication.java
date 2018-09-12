@@ -22,9 +22,8 @@ public class RenrenApplication extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		//AVOSCloud.initialize("IJ9yXePUxhvz9LGRr8UwufdI-gzGzoHsz","WvqLAFMXcNeGlAKQQ1dyaBWY","dKAYBhoNiax3Rq78jsM2YT89");
 		AVOSCloud.initialize("IJ9yXePUxhvz9LGRr8UwufdI-gzGzoHsz","WvqLAFMXcNeGlAKQQ1dyaBWY","dKAYBhoNiax3Rq78jsM2YT89");
-		//AVOSCloud.useAVCloudCN();
+		AVOSCloud.useAVCloudCN();
 		AVOSCloud.setDebugLogEnabled(true);
 
 

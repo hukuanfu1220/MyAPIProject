@@ -89,6 +89,7 @@ public class AppLoginController {
         String username = (String)map.get("username");
         String sex = (String)map.get("sex");
         String address = (String)map.get("address");
+        String header = (String)map.get("header");
 
         UserEntity userEntity = userService.selectById(userId);
         if (userEntity == null){
@@ -104,6 +105,10 @@ public class AppLoginController {
             }
             if (address != null){
                 entity.setAddress(address);
+            }
+
+            if (header != null){
+                entity.setHeaderUrl(header);
             }
 
             boolean status = userService.updateById(entity);
